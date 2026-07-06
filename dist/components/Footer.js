@@ -7,6 +7,7 @@ import ATTRIBUTRICON from "../assets/attribution_icon_white_x2.png";
 import NCWHITE from "../assets/nc_white_x2.png";
 import NDWHITE from "../assets/nd_white_x2.png";
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
   return /*#__PURE__*/React.createElement("div", {
     className: "wrapper-footer"
   }, /*#__PURE__*/React.createElement("footer", {
@@ -65,7 +66,7 @@ const Footer = () => {
     alt: "Powered by Open edX"
   }))), /*#__PURE__*/React.createElement("p", {
     className: "reserved"
-  }, "All rights reserved to VisionEmpower 2021"), /*#__PURE__*/React.createElement("div", {
+  }, "All rights reserved to VisionEmpower 2021-", String(currentYear).slice(-2)), /*#__PURE__*/React.createElement("div", {
     className: "column"
   }, /*#__PURE__*/React.createElement("aside", null, /*#__PURE__*/React.createElement("div", {
     className: "image-icons"
