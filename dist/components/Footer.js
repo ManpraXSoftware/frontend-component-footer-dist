@@ -66,7 +66,7 @@ const Footer = () => {
     alt: "Powered by Open edX"
   }))), /*#__PURE__*/React.createElement("p", {
     className: "reserved"
-  }, "All rights reserved to VisionEmpower 2021-", String(currentYear).slice(-2)), /*#__PURE__*/React.createElement("div", {
+  }, "All rights reserved to Vision Empower 2021-", String(currentYear).slice(-2)), /*#__PURE__*/React.createElement("div", {
     className: "column"
   }, /*#__PURE__*/React.createElement("aside", null, /*#__PURE__*/React.createElement("div", {
     className: "image-icons"
