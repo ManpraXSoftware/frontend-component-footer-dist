@@ -6,6 +6,7 @@ import CCICON from "../assets/cc_icon_white_x2.png";
 import ATTRIBUTRICON from "../assets/attribution_icon_white_x2.png";
 import NCWHITE from "../assets/nc_white_x2.png";
 import NDWHITE from "../assets/nd_white_x2.png";
+import '../_footer.scss';
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   return /*#__PURE__*/React.createElement("div", {
@@ -15,7 +16,8 @@ const Footer = () => {
   }, /*#__PURE__*/React.createElement("div", {
     className: "container"
   }, /*#__PURE__*/React.createElement("div", {
-    className: "references edxlogo"
+    className: "references edxlogo",
+    id: "footer-logo"
   }, /*#__PURE__*/React.createElement("div", {
     className: "elektrobit-logo"
   }, /*#__PURE__*/React.createElement("img", {
@@ -23,6 +25,7 @@ const Footer = () => {
     width: "60",
     alt: "Supported by Elektrobit"
   }), /*#__PURE__*/React.createElement("p", {
+    className: "footerlogo",
     style: {
       marginTop: "29px",
       fontFamily: "Segeo UI"
@@ -38,6 +41,7 @@ const Footer = () => {
     },
     alt: "Supported by Microsoft"
   }), /*#__PURE__*/React.createElement("p", {
+    className: "footerlogo",
     style: {
       marginTop: "44px",
       fontFamily: "Segeo UI"
@@ -54,6 +58,7 @@ const Footer = () => {
     height: "78",
     alt: "Supported by Cognizant"
   }), /*#__PURE__*/React.createElement("p", {
+    className: "footerlogo",
     style: {
       fontFamily: "Segeo UI"
     }
